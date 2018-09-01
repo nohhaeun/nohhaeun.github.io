@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif; 
+}
+#landing-container{
+    width:100%;
+    height: 550px;
+    background-image: url('https://images.unsplash.com/photo-1535320404287-416e2c6d2b41?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=12c7b98882a77aebcaab5eab5189ddd4&auto=format&fit=crop&w=1350&q=80');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    width: 40%;
+    margin: 100px auto 50px auto;
+}
+.title h1 {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+  box-shadow: 0px 0px 28px 0px rgba(212, 212, 212, 1);
+}
+#about-container .abouts{
+    margin-top:50px;
+    
+}
+#about-container .about{
+    width:60%;
+    margin:0 auto;
+    font-size:18px;
+    line-height: 1.8em;
+}
+#about-container .about .question{
+    line-height: 2.5em;
+}
+#about-container .about .answer{
+    margin-left: 20px;
+}
+.title{
+    width:40%;
+    margin: 100px auto 50px auto;
+}
+.feather{
+    width:150px;
+    height: 150px;
+
+}
+#interest-container .interests{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#interest-container .interest{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+footer{
+    position: relative;
+    top: 150px;
+    height: 6em;
+    line-height: 6em;
+    margin: 0;
+    background-color: #236aff;
+    text-align: center;
+}
+#copyright{
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+    float: right;
+}
